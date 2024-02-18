@@ -2,9 +2,9 @@ Send a Random Memo from Memos to Telegram
 
 Applicable for  [memos](https://github.com/usememos/memos)  database using SQLite.
 
-## requirements
+## Requirements
 
-python 2.x
+python 2.x  
 [memos](https://github.com/usememos/memos) >= v0.19.0:
 Use short UUIDs instead of auto-incrementing IDs for memo and resource in API and frontend
 
