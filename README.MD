@@ -4,7 +4,7 @@ Applicable for  [memos](https://github.com/usememos/memos)  database using SQLit
 
 ## Requirements
 
-Python 2.x  ([original repo](https://github.com/hillerliao/random-memos) for Python 3.x)
+Python 2.x  ([original repo](https://github.com/hillerliao/random-memos) for Python 3.x)  
 [memos](https://github.com/usememos/memos) >= v0.19.0:
 Use short UUIDs instead of auto-incrementing IDs for memo and resource in API and frontend
 
