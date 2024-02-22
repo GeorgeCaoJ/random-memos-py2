@@ -25,7 +25,7 @@ def get_random_memo(db='', filter=FILTER):
                 msg = msg[0:500] + '...'
 
             link = '{}/m/{}'.format(DOMAIN, row[7])
-            msg = u'{}\r\n({})'.format(msg, link)
+            msg = u'[#DailyReview]\r\n{}\r\n({})'.format(msg, link)
             break
     conn.close()
     return msg
